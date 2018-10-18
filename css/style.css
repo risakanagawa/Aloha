@@ -65,14 +65,13 @@ p {
 
 .header--lists {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .header li {
     display: inline;
     font-size: 1rem;
     font-weight: 600;
-    padding-right: 5vw;
 }
 
 .header--cart {
@@ -84,12 +83,12 @@ p {
 
 .header--title__image {
     max-width: 100%;
-    width: 12vw;
+    width: 12vh;
 } 
 
 .header--cart__image{
     max-width: 100%;
-    width: 4vw;
+    width: 6vh;
 }
 
 .counter {
@@ -111,7 +110,7 @@ p {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.3)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
     background-repeat: no-repeat;
     background-position: center, bottom, center;
-    background-size: auto, 13%, cover;
+    background-size: auto, 20vh, cover;
     width: 100%;
     height: 500px;
     display: flex;
@@ -235,22 +234,13 @@ p {
     text-align: center;
 }
 
-.features h2  {
-    padding: 20px 0;
-    font-size: 1.5rem;
-}
-
-.features span {
-    font-style: italic;
-    font-weight: lighter;
+.carousel-cell {
+    height: 400px;
 }
 
 
-.slider {
-    display: flex;
-}
 
-.slider h3 {
+/* .slider h3 {
     padding: 20px 0;
     font-size: 1.5rem;
     color: #e2574c;
@@ -258,7 +248,7 @@ p {
 
 .slider span {
     color: #969696;
-}
+} */
 
 .itemPic {
     height: auto;
@@ -399,9 +389,14 @@ i {
         }
 
         .header--lists {
-            display: contents;
+            display: flex;
+            justify-content: space-around;
         }
 
+        .intro--p, .subscribe--p {
+            font-size: 1rem;
+            width: 90vw;
+        }
 
         .style-boxes {
             grid-template-rows: auto auto;
@@ -420,12 +415,12 @@ i {
     body {
         margin-top: 20px;
         padding: 10px 0;
+        font-size: 14px;
     }
 
     .header--title {
         width: 10vw;
         order: 1;
-        
         flex-basis: 50%;
          -webkit-flex-basis: 50%;
         text-align: left;
@@ -448,20 +443,16 @@ i {
         border-top: 1px solid #d7d7d7;
     }
 
-    .header--title__image {
-        max-width: 100%;
-        width: 20vw;
-    } 
-    
-    .header--cart__image{
-        max-width: 100%;
-        width: 10vw;
+    .intro--p, .subscribe--p {
+        font-size: 1rem;
+        width: 90vw;
     }
 
     .style-boxes {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
+
     .item {
         grid-column: 2 / span 1;
         grid-row: 3 / span 1;
