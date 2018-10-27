@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -14,28 +15,31 @@
     <link rel="stylesheet" href="css/style.css">
 
 <body>
-    <header class="header container">
+    <!-- HEADER-SECTION -->
+    <header class="header">
         <div class="header--title">
             <img src="./images/aloha-logo.svg" alt="Aloha Apparel Co." class="header--title__image">
         </div>
         <div class="header--cart">
             <img src="./images/cart-icon.svg" class="header--cart__image">
-            <span class="counter">5</span>
+            <span class="counter">0</span>
         </div>
         <nav class="header--nav">
-            <ul class="header--lists">
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">FEATURED</a></li>
-                <li><a href="#">UPDATES</a></li>
+            <ul class="header--nav__list">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a href="#feature">FEATURED</a></li>
+                <li><a href="#subscribe">UPDATES</a></li>
             </ul>
         </nav>
     </header>
+    <!-- TOP-BANNER-SECTION -->
     <section class="top--section">
         <span class="top--section__span">NEW COLLECTION</span>
         <h1 class="top--section__title">Spring / Summer 2016</h1>
     </section>
-    <section class="container">
+    <!-- INTRRODUCTION-SECTION -->
+    <section id="about" class="container">
         <div class="intro">
             <h2 class="heading--title"><span>Hand-Crafted</span> Styles</h2>
             <p class="intro--p">Aloha Apparel Co. sells only the finest ready-to-travel clothig. Browse our current
@@ -44,75 +48,122 @@
                 sign-up for updates below.</p>
         </div>
     </section>
-    <section class="style-boxes">
-        <div class="item bigitem1 mens"><span>men's</span></div>
-        <div class="item trends"><span>trends</span></div>
-        <div class="item glasses"><span>glasses</span></div>
-        <div class="item sale"><span>sale</span></div>
-        <div class="item bags"><span>Bags</span></div>
-        <div class="item bigitem2 womens"><span>women's</span></div>
+    <!-- CATEGORY-SECTION -->
+    <section id="shop" class="category">
+        <div class="category--item mens"><span>men's</span></div>
+        <div class="category--item trends"><span>trends</span></div>
+        <div class="category--item glasses"><span>glasses</span></div>
+        <div class="category--item sale"><span>sale</span></div>
+        <div class="category--item bags"><span>Bags</span></div>
+        <div class="category--item womens"><span>women's</span></div>
     </section>
-    <section class="features container">
-        <div class="container">
-            <div class="features">
-                <h2 class="heading--title"><span>Most-Loved</span> Products</h2>
-                <div class="slider main-carousel"">
-                    <div class="carousel-cell">
-                        <img src="./images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" class="itemPic">
+    <!-- FEATURE-SECTION -->
+    <section id="feature" class="features">
+            <h2 class="heading--title"><span>Most-Loved</span> Products</h2>
+            <div class="main-carousel">
+                <div class="carousel-cell">
+                    <img src="./images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" class="features--item">
+                    <div>
                         <span>Dresses</span>
                         <h3>Checked Stretch Dress</h3>
                         <span>$129.00</span>
+                        <button class="add--btn">Add to Cart</button>
                     </div>
-                    <div class="carousel-cell">
-                        <img src="./images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" class="itemPic">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" class="features--item">
+                    <div>
                         <span>Bags</span>
                         <h3>Blue Hipster Backpack</h3>
                         <span>$69.00</span>
+                        <button class="add--btn">Add to Cart</button>
                     </div>
-                    <div class="carousel-cell">
-                        <img src="./images/demin-overall-shorts.jpg" alt="Checked Stretch Dress" class="itemPic">
-                        <span>Dresses</span>
-                        <h3>Checked Stretch Dress</h3>
+                </div>
+                <div class="carousel-cell">
+                    <img src="./images/demin-overall-shorts.jpg" alt="Checked Stretch Dress" class="features--item">
+                    <div>
+                        <span>Denim</span>
+                        <h3>Denim Overall Shorts</h3>
                         <span>$129.00</span>
+                        <button class="add--btn">Add to Cart</button>
                     </div>
-                    <div >
-                        <img src="./images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" class="itemPic">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" class="features--item">
+                    <div>
                         <span>Dresses</span>
                         <h3>Pink Dotted Dress</h3>
                         <span>$99.00</span>
+                        <button class="add--btn">Add to Cart</button>
                     </div>
                 </div>
+                <div class="carousel-cell">
+                        <img src="./images/stretch-knit-dress.jpg" alt="Checked Stretch Dress" class="features--item">
+                        <div>
+                            <span>Dresses</span>
+                            <h3>Stretch Knit Dress</h3>
+                            <span>$129.00</span>
+                            <button class="add--btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="./images/cotton-yellow-tshirt.jpg" alt="Blue Hipster Backpack" class="features--item">
+                        <div>
+                            <span>Tops</span>
+                            <h3>Cotton Yellow Tshirt</h3>
+                            <span>$49.00</span>
+                            <button class="add--btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="./images/blue-silk-dress.jpg" alt="Checked Stretch Dress" class="features--item">
+                        <div>
+                            <span>Dresses</span>
+                            <h3>Blue Silk Dress</h3>
+                            <span>$169.00</span>
+                            <button class="add--btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="./images/cotton-blue-shirt.jpg" alt="Pink Dotted Dress" class="features--item">
+                        <div>
+                            <span>Tops</span>
+                            <h3>Cotton Blue Shirt</h3>
+                            <span>$59.00</span>
+                            <button class="add--btn">Add to Cart</button>
+                        </div>
+                    </div>
             </div>
-        </div>
     </section>
-    <section class="subscribe">
-       
+    <!-- SUBSCRIBE-SECTION -->
+    <section id="subscribe" class="subscribe">
         <h2 class="heading--title subscribe--title"><span>Sign-up for</span> Updates</h2>
         <p class="subscribe--p">Stay updated on our latest product releases, be first to find out about upcoming sales,
             and get free style tips from our blog. Unsubscribe at any time.</p>
-            <div class="container">
-        <form action="#" method="POST" class="subscribe--form">
-            <input type="email" placeholder="Your Email" class="subscribe--email">
-            <input id="#" type="submit" value="Subscribe" class="subscribe--submit">
-        </form>
-    </div>
+        <div class="container">
+            <form action="#" method="POST" class="subscribe--form">
+                <input type="email" placeholder="Your Email" class="subscribe--email">
+                <input id="#" type="submit" value="Subscribe" class="subscribe--submit">
+            </form>
+        </div>
     </section>
+    <!-- FOOTER-SECTION -->
     <footer class="footer">
         <div class="container">
-            <div class="wrapper">
+            <div class="footer--wrapper">
                 <div>
-                    <div class="footerText">
+                    <div class="footer--text">
                         <p>2016 Aloha Apparel Co.</p>
                         <p>Powered by HTML and CSS.</p>
-                        <p class="contact">604-604-6040. <span class="mail">info@alohaapparel.com</span></p>
+                        <p class="footer-contact">604-604-6040. <span class="mail">info@alohaapparel.com</span></p>
                     </div>
-                    <div class="address">
+                    <div class="footer--address">
                         <span> 1490 W Broadway</span> <br />
                         <span>Vancouver, BC, Canada</span>
                     </div>
                 </div>
                 <div class="icons">
-                    <ul class="fa-ul">
+                    <ul class="icons--ul">
                         <li><i class="fab fa-facebook-f"></i><span>Facebook</span></li>
                         <li><i class="fab fa-twitter"></i><span>Twitter</span></li>
                         <li><i class="fab fa-instagram"></i><span>Instagram</span></li>
@@ -123,9 +174,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="flicky/flickity.pkgd.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-</html>
 
+</html>
