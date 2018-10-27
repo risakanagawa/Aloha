@@ -11,7 +11,9 @@ Github webpage : [Aloha project](https://risakanagawa.github.io/Aloha/)
 	- Github
 
 ## Personal learning
-	Building this website from scratch gave me various exercises. Before RED, I learned some skills by myself, however, no feedback and everything was done blindly. This project1 exercise has trained me how to organize codes, a deep understanding of box model in html and make use of development services such as github.
+	Building this website from scratch gave me various exercises.
+    A little while agoA little while ago, I learned some skills by myself, however, no feedback and everything was done blindly. 
+    This project1 exercise has trained me how to organize codes, a deep understanding of box model in html and make use of development services such as GitHub.
 
 ## Next Goal
 	Understand further programming algorithms.  
