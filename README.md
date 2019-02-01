@@ -13,10 +13,10 @@ UNDERSTAND the fundamental skills to build a responsive website from scratch.
 
 ## Technologies used.
 
--HTML / CSS
--jQuery
--jQuery Plugin "Flickity"
--Git
+-　HTML / CSS
+- jQuery
+- jQuery Plugin "Flickity"
+- Git
 
 ## Personal learning
 
