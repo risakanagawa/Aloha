@@ -45,6 +45,6 @@ $(function () {
     groupCells: '90%'
   });
 
-});
+})();
 
 
