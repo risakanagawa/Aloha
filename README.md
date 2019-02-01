@@ -2,8 +2,8 @@
 
 Github webpage : [https://risakanagawa.github.io/Aloha/](https://risakanagawa.github.io/Aloha/)
 
-This is a responsive apparel website.
-Mobile-first, responsive design. Breakpoints at 600px for tablet and 1240px for desktop.
+This is a mobile-first responsive apparel website.
+Breakpoints are at 600px for tablet and 1240px for desktop.
 
 ![desktop](https://user-images.githubusercontent.com/30381475/52098939-e6871000-2585-11e9-9845-5a532195c6ed.png)
 
@@ -13,7 +13,7 @@ UNDERSTAND the fundamental skills to build a responsive website from scratch.
 
 ## Technologies used.
 
--　HTML / CSS
+- HTML / CSS
 - jQuery
 - jQuery Plugin "Flickity"
 - Git
