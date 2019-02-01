@@ -13,12 +13,12 @@ UNDERSTAND the fundamental skills to build a responsive website from scratch.
 
 ## Technologies used.
 
-HTML / CSS
-jQuery
-jQuery Plugin "Flickity"
-Git
+-HTML / CSS
+-jQuery
+-jQuery Plugin "Flickity"
+-Git
 
 ## Personal learning
 
-Building this website from scratch gave me various exercises.
+Building this website from scratch gave me various exercises.<br>
 A little while ago, I learned some skills by myself, however, no feedback and everything was done blindly. This project1 exercise has trained me how to organize codes, a deep understanding of box model in html and make use of development services such as GitHub.
